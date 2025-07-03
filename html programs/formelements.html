@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/subject"method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name"name="name" placeholder="Enter your name"required><br></br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email"email="email" placeholder="Enter your email"required><br></br>
+
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob" name="dob" required><br></br>
+
+        <label for="appointment">Appointment Date & Time:</label>
+        <input type="datatime-local" id="appointment"><br></br>
+
+        <label for="billing month">Billing month:</label>
+        <input type="month" id="billing month"name="Billing month"><br></br>
+
+        <label for="week-number">Select week:</label>
+        <input type="week" id="week-number"name="week-number"><br></br>
+
+        <p><strong>Gender:</strong></p>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <input type="radio" id="others" name="gender">
+        <label for="others">Others</label>
+
+        <p><strong>Hobbies:</strong></p>
+        <input type="checkbox" id="reading" name="hobbies[]" value="Reading">
+        <label for="reading">Reading</label><br>
+
+        <input type="checkbox" id="sports" name="hobbies[]" value="Sports">
+        <label for="sports">Sports</label><br>
+
+        <input type="checkbox" id="travel" name="hobbies[]" value="Travel">
+        <label for="travel">Travel</label><br>
+
+        <input type="checkbox" id="music" name="hobbies[]" value="Music">
+        <label for="Music">Music</label><br>
+
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
