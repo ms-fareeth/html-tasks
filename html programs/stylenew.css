@@ -1,0 +1,25 @@
+body
+{
+    font-family: sans-serif;
+    margin:0;
+    padding: 20px;
+    background-color: brown;
+}
+.grid-container
+{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding:10px;
+    background-color: rgb(19, 55, 87);
+    border:1px solid black;        
+}
+.grid-item
+{
+    background-color: greenyellow;
+    color: darkred;
+    padding: 20px;
+    text-align: center;
+    font-size: medium;
+    border-radius: %;
+}
